@@ -1,1 +1,3 @@
-# DeepLearning
+In this project a deep learning-based road traffic signs recognition method is developed which is very promising in the development of Advanced Driver Assistance Systems (ADAS) and autonomous vehicles. 
+The system architecture is designed to extract main features from images of traffic signs to classify them under different categories. 
+The presented method uses a modified LeNet-5 network to extract a deep representation of traffic signs to perform the recognition. It is constituted of a Convolutional Neural Network (CNN) modified by connecting the output of all convolutional layers to the Multilayer Perceptron (MLP). The training is conducted using the German Traffic Sign Dataset and achieves good results on recognizing traffic signs.
